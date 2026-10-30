@@ -1,0 +1,21 @@
+name: ahl-albahar picture fetch
+on:
+  push:
+    branches: [ahl-albahar-work]
+    paths: [ahl-albahar/titles.json, ahl-albahar/fetch.py]
+  workflow_dispatch:
+concurrency:
+  group: ahl-albahar-fetch
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name "picture-fetch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          python3 ahl-albahar/fetch.py
