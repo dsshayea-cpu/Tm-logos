@@ -304,10 +304,6 @@
    }
   ]
  },
- "a014": {
-  "title": "Gargoor fish trap",
-  "cands": []
- },
  "a015": {
   "title": "Boom (ship)",
   "cands": [
@@ -413,10 +409,6 @@
     "local": "ahl-albahar/cand/a021_2.jpg"
    }
   ]
- },
- "a022": {
-  "title": "Planiliza klunzingeri",
-  "cands": []
  },
  "a023": {
   "title": "Dhow mast",
@@ -1205,17 +1197,6 @@
    }
   ]
  },
- "a053": {
-  "title": "Mutabbaq samak",
-  "cands": [
-   {
-    "src": "wiki:Mutabbaq samak",
-    "file": "Syrian_meal.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Syrian_meal.jpg/960px-Syrian_meal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local": "ahl-albahar/cand/a053_0.jpg"
-   }
-  ]
- },
  "a054": {
   "title": "Sphyraena jello",
   "cands": [
@@ -1885,35 +1866,6 @@
     "file": "File:Arabian Bagla.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Arabian_Bagla.jpg/960px-Arabian_Bagla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "local": "ahl-albahar/cand/a090_3.jpg"
-   }
-  ]
- },
- "a091": {
-  "title": "Jalibut",
-  "cands": [
-   {
-    "src": "wiki:Dhow",
-    "file": "Dhow_znz.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Dhow_znz.jpg/960px-Dhow_znz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local": "ahl-albahar/cand/a091_0.jpg"
-   },
-   {
-    "src": "commons",
-    "file": "File:Dhow znz.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Dhow_znz.jpg/960px-Dhow_znz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "local": "ahl-albahar/cand/a091_1.jpg"
-   },
-   {
-    "src": "commons",
-    "file": "File:Dhow restaurant.JPG",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Dhow_restaurant.JPG/960px-Dhow_restaurant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "local": "ahl-albahar/cand/a091_2.jpg"
-   },
-   {
-    "src": "commons",
-    "file": "File:Sail Amsterdam - Veemkade - View on Dhow Theyab & Tall Ship Dar Mlodziezy - August 2010 01.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Sail_Amsterdam_-_Veemkade_-_View_on_Dhow_Theyab_%26_Tall_Ship_Dar_Mlodziezy_-_August_2010_01.jpg/960px-Sail_Amsterdam_-_Veemkade_-_View_on_Dhow_Theyab_%26_Tall_Ship_Dar_Mlodziezy_-_August_2010_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "local": "ahl-albahar/cand/a091_3.jpg"
    }
   ]
  },
@@ -3347,10 +3299,6 @@
     "local": "ahl-albahar/cand/a188_3.jpg"
    }
   ]
- },
- "a189": {
-  "title": "Scarus persicus",
-  "cands": []
  },
  "a190": {
   "title": "Greater amberjack",

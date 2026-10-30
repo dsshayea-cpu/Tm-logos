@@ -48,10 +48,6 @@
 "title": "Epinephelus coioides"
 },
 {
-"id": "a014",
-"title": "Gargoor fish trap"
-},
-{
 "id": "a015",
 "title": "Boom (ship)"
 },
@@ -74,10 +70,6 @@
 {
 "id": "a021",
 "title": "Portunus segnis"
-},
-{
-"id": "a022",
-"title": "Planiliza klunzingeri"
 },
 {
 "id": "a023",
@@ -192,10 +184,6 @@
 "title": "Fishing bait"
 },
 {
-"id": "a053",
-"title": "Mutabbaq samak"
-},
-{
 "id": "a054",
 "title": "Sphyraena jello"
 },
@@ -290,10 +278,6 @@
 {
 "id": "a090",
 "title": "Baghlah"
-},
-{
-"id": "a091",
-"title": "Jalibut"
 },
 {
 "id": "a092",
@@ -496,10 +480,6 @@
 "title": "Argyrops spinifer"
 },
 {
-"id": "a189",
-"title": "Scarus persicus"
-},
-{
 "id": "a190",
 "title": "Greater amberjack"
 },
@@ -522,5 +502,25 @@
 {
 "id": "a209",
 "title": "Dhow types"
+},
+{
+"id": "a022",
+"title": "Mullet (fish)"
+},
+{
+"id": "a189",
+"title": "Parrotfish"
+},
+{
+"id": "a014",
+"title": "Fish trap wire"
+},
+{
+"id": "a091",
+"title": "Jalboot dhow"
+},
+{
+"id": "a053",
+"title": "Machboos"
 }
 ]
