@@ -16,7 +16,9 @@ Files here:
   example from قولبها), and a real film quote in a speech bubble (no lyrics, never the title).
   spec.py holds per-film look/pun/quote/scene overrides; build.py applies them. 111 films redone.
   Films not in spec.py kept their round-1 picture.
-  Status: preview shown to user; waiting for approval + TM category name (step 5).
+  Status: DONE 2026-11-03 — all 210 added to TM category عتيج الصوف (waiting for review).
+  TM blocked 4 as false duplicates (The Island/Shutter Island, Rush/Rush Hour, Big Fish & The Big Short/Big),
+  so those 4 use the text "ما اسم الفيلم ؟" / "ما هو الفيلم ؟" instead.
 - gen_all.py — `GK=<key> python3 gen_all.py` generates every missing picture into img/
 
 Steps for the new chat:
