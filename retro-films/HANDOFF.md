@@ -11,6 +11,11 @@ Files here:
   r016 r045 r054 r084 r106 r113 r148 r164 r172 r187 r201 (title written, corner badges, garbled text).
   Prompts tweaked for r054 (Bad Boys), r164 (Groundhog Day), r172 (Seven), r187 (Moulin Rouge!).
   Some have colour accents (r027 r029 r036 r122 r193 …; r178 Her is red on purpose) — user to decide.
+  Round 2 (user feedback): characters must look like the film's characters (close at 200, looser
+  at 400/600), face puns where the title allows (like Reservoir Dogs drawn as dogs — the user's
+  example from قولبها), and a real film quote in a speech bubble (no lyrics, never the title).
+  spec.py holds per-film look/pun/quote/scene overrides; build.py applies them. 111 films redone.
+  Films not in spec.py kept their round-1 picture.
   Status: preview shown to user; waiting for approval + TM category name (step 5).
 - gen_all.py — `GK=<key> python3 gen_all.py` generates every missing picture into img/
 
