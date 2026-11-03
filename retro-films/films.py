@@ -54,7 +54,7 @@ F = [
 (200,"I Am Legend","a lone man with a German Shepherd dog walking through an empty overgrown Times Square in New York, deer running among abandoned cars","","...","a rifle on his shoulder, a sunset warning on his watch"),
 (200,"The Mummy","a giant angry face made of sand rising out of a desert sandstorm and chasing a small biplane, ancient Egyptian ruins below","","ROAAAR!","beetles (scarabs) on the sand, a golden book"),
 (200,"Rush Hour","two cops back to back: a tall loud American and a smaller Asian martial artist kicking, in a fancy Chinese restaurant fight","Do you understand the words that are coming out of my mouth?!","HI-YAH!","a vase about to fall, a police badge"),
-(200,"Bad Boys","two cool cops in sunglasses standing up slowly together from the ground in a dramatic low-angle shot, Miami palm trees behind them","","BAD BOYS! BAD BOYS!","a Porsche, palm trees"),
+(200,"Bad Boys","two cool cops in sunglasses standing up slowly together from the ground in a dramatic low-angle shot, Miami palm trees behind them","","WHOOOSH! SCREECH!","a Porsche, palm trees"),
 (200,"Ocean's Eleven","eleven stylish thieves in suits walking together in a line out of a casino vault, the casino lights behind them","","CHA-CHING!","a Bellagio-style fountain, poker chips"),
 (200,"The Day After Tomorrow","a giant tidal wave flooding the streets of New York City, the Statue of Liberty half frozen in ice and snow","","WHOOOSH!","a library with burning books for heat, a frozen ship in the street"),
 (200,"La La Land","a man and woman tap dancing together on a hill above the city lights at purple dusk, beside a street lamp and a bench","","TAP TAP TAP!","a jazz piano, a planetarium dome in the distance"),

@@ -7,7 +7,11 @@ drawing of a film's famous scene, made with Gemini (gemini-3.1-flash-image, 16:9
 
 Files here:
 - prompts.json — 210 items {id r001..r210, diff, answer, prompt} (built by build.py from films*.py)
-- img/ — finished pictures (8 so far: r065 r068-r072 r076 r083, all checked OK)
+- img/ — finished pictures: all 210 generated and checked (2026-11-03). Redone after review:
+  r016 r045 r054 r084 r106 r113 r148 r164 r172 r187 r201 (title written, corner badges, garbled text).
+  Prompts tweaked for r054 (Bad Boys), r164 (Groundhog Day), r172 (Seven), r187 (Moulin Rouge!).
+  Some have colour accents (r027 r029 r036 r122 r193 …; r178 Her is red on purpose) — user to decide.
+  Status: preview shown to user; waiting for approval + TM category name (step 5).
 - gen_all.py — `GK=<key> python3 gen_all.py` generates every missing picture into img/
 
 Steps for the new chat:
