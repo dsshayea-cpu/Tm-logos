@@ -1,0 +1,1 @@
+# Kuwaiti plays set pictures
