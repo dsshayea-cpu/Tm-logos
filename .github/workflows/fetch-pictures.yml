@@ -1,0 +1,51 @@
+name: Fetch pictures from a list
+# Runs only when a list.tsv changes. Each line: <file name><TAB><direct picture link>.
+# Downloads pictures that are not in the folder yet, next to their list.tsv, and commits them.
+on:
+  push:
+    paths:
+      - '**/list.tsv'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fetch-pictures
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download missing pictures
+        run: |
+          set -u
+          : > fetch-report.txt
+          find . -name list.tsv -not -path './.git/*' | while read -r list; do
+            dir=$(dirname "$list")
+            while IFS=$'\t' read -r name url; do
+              [ -z "${name:-}" ] && continue
+              case "$name" in */*|.*) echo "SKIP bad name $name" >> fetch-report.txt; continue;; esac
+              case "$url" in https://*) ;; *) echo "SKIP bad link $name" >> fetch-report.txt; continue;; esac
+              [ -f "$dir/$name" ] && continue
+              code=$(curl -sS -L --max-time 120 --max-filesize 40000000 --proto '=https' -A 'tm-logos-picture-fetch/1.0 (https://github.com/dsshayea-cpu/tm-logos)' -o "$dir/$name.part" -w '%{http_code}' -- "$url" || echo 000)
+              if [ "$code" = "200" ] && file --mime-type -b "$dir/$name.part" | grep -q '^image/'; then
+                mv "$dir/$name.part" "$dir/$name"
+                if command -v mogrify >/dev/null; then mogrify -resize '1600x1600>' "$dir/$name" || true; fi
+                echo "OK $dir/$name" >> fetch-report.txt
+              else
+                rm -f "$dir/$name.part"
+                echo "FAIL $code $dir/$name" >> fetch-report.txt
+              fi
+              sleep 2
+            done < "$list"
+          done
+          cat fetch-report.txt
+      - name: Commit
+        run: |
+          mv fetch-report.txt mumathil-mushtarak/fetch-report.txt 2>/dev/null || true
+          git config user.name "tm-logos fetch"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Fetch pictures listed in list.tsv"
+          git pull --rebase
+          git push
